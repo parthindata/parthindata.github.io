@@ -75,14 +75,19 @@
 
 				<!-- Three -->
 					<section id="three">
-						<h2>Want to get in touch?</h2>
-						<h2>Send me an email!</h2>
+						<h2>“Have a question or opportunity?”</h2>
+						<h2>“Send me a direct message, I’d love to hear from you”</h2>
+						
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form action="https://formspree.io/f/xqaebvno" method="POST">
-									<label>  Your email:  <input type="email" name="email" placeholder="Your email"></label> 
-									<label>  Your message: <textarea name="message" placeholder="Your message"></textarea></label>
-									<button class="button" type="submit">Send </button></form>
+								  	<form action="https://formspree.io/f/xqaebvno" method="POST">
+    									<label for="email">Your email:</label>
+    									<input type="email" id="email" name="email" placeholder="Your email" required>
+    									<label for="message">Your message:</label>
+    									<textarea id="message" name="message" placeholder="Your message" required></textarea>
+   										<button class="button" type="submit">Send</button>
+ 									 </form>
+								<p><em>P.S. I’ll try my best to get back to you on the same day.</em></p>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
@@ -440,5 +445,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
 
 
